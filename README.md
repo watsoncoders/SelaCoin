@@ -46,3 +46,6 @@ bounties :
 20,000 selacoin to anyone who can help us by adding the coin to known coin trackers like coinmarketcap and similar.
 
 this is built to be a long term coin that will revolutionise the way we do buisness - and hopefully will bring stabilty back to the crypto markets.
+all wallets and deamonds are available from the build folder in this repo or via direct download from https://sela-coin.com 
+i've also included guides on how to setup a master node and more for anyone who wishes to mine using masternodes
+ill try to also include a conplete guide on how to compile and fork from source as soon as possible
