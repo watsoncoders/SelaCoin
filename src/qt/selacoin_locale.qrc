@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/selacoin_ar.qm</file>
+        <file alias="bg">locale/selacoin_bg.qm</file>
+        <file alias="de">locale/selacoin_de.qm</file>
+        <file alias="en">locale/selacoin_en.qm</file>
+        <file alias="es">locale/selacoin_es.qm</file>
+        <file alias="fi">locale/selacoin_fi.qm</file>
+        <file alias="fr">locale/selacoin_fr.qm</file>
+        <file alias="it">locale/selacoin_it.qm</file>
+        <file alias="ja">locale/selacoin_ja.qm</file>
+        <file alias="ko">locale/selacoin_ko.qm</file>
+        <file alias="nl">locale/selacoin_nl.qm</file>
+        <file alias="pl">locale/selacoin_pl.qm</file>
+        <file alias="pt">locale/selacoin_pt.qm</file>
+        <file alias="ru">locale/selacoin_ru.qm</file>
+        <file alias="sk">locale/selacoin_sk.qm</file>
+        <file alias="sv">locale/selacoin_sv.qm</file>
+        <file alias="th">locale/selacoin_th.qm</file>
+        <file alias="tr">locale/selacoin_tr.qm</file>
+        <file alias="vi">locale/selacoin_vi.qm</file>
+        <file alias="zh_CN">locale/selacoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/selacoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

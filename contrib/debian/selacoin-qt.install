@@ -1,0 +1,6 @@
+usr/local/bin/selacoin-qt usr/bin
+share/pixmaps/selacoin32.xpm usr/share/pixmaps
+share/pixmaps/selacoin16.xpm usr/share/pixmaps
+share/pixmaps/selacoin128.png usr/share/pixmaps
+debian/selacoin-qt.desktop usr/share/applications
+debian/selacoin-qt.protocol usr/share/kde4/services/

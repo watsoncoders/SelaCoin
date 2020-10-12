@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[selacoin.qt-translation-012x]
+file_filter = src/qt/locale/selacoin_<lang>.ts
+source_file = src/qt/locale/selacoin_en.ts
+source_lang = en
