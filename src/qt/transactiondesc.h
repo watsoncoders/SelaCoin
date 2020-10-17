@@ -1,15 +1,10 @@
-// Copyright (c) 2011-2014 The Bitcoin Core developers
-// Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+#ifndef TRANSACTIONDESC_H
+#define TRANSACTIONDESC_H
 
-#ifndef BITCOIN_QT_TRANSACTIONDESC_H
-#define BITCOIN_QT_TRANSACTIONDESC_H
-
-#include <QObject>
 #include <QString>
+#include <QObject>
 
 class TransactionRecord;
-
 class CWallet;
 class CWalletTx;
 
@@ -28,4 +23,4 @@ private:
     static QString FormatTxStatus(const CWalletTx& wtx);
 };
 
-#endif // BITCOIN_QT_TRANSACTIONDESC_H
+#endif // TRANSACTIONDESC_H

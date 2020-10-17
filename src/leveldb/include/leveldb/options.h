@@ -128,12 +128,6 @@ struct Options {
   // efficiently detect that and will switch to uncompressed mode.
   CompressionType compression;
 
-  // EXPERIMENTAL: If true, append to existing MANIFEST and log files
-  // when a database is opened.  This can significantly speed up open.
-  //
-  // Default: currently false, but may become true later.
-  bool reuse_logs;
-
   // If non-NULL, use the specified filter policy to reduce disk reads.
   // Many applications will benefit from passing the result of
   // NewBloomFilterPolicy() here.
@@ -159,7 +153,7 @@ struct ReadOptions {
 
   // If "snapshot" is non-NULL, read as of the supplied snapshot
   // (which must belong to the DB that is being read and which must
-  // not have been released).  If "snapshot" is NULL, use an implicit
+  // not have been released).  If "snapshot" is NULL, use an impliicit
   // snapshot of the state at the beginning of this read operation.
   // Default: NULL
   const Snapshot* snapshot;

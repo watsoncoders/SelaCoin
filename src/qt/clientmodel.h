@@ -1,38 +1,17 @@
-// Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Dash Core developers
-// Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-#ifndef BITCOIN_QT_CLIENTMODEL_H
-#define BITCOIN_QT_CLIENTMODEL_H
-
-#include "evo/deterministicmns.h"
-#include "sync.h"
+#ifndef CLIENTMODEL_H
+#define CLIENTMODEL_H
 
 #include <QObject>
-#include <QDateTime>
 
-#include <atomic>
-
-class AddressTableModel;
-class BanTableModel;
 class OptionsModel;
-class PeerTableModel;
+class AddressTableModel;
 class TransactionTableModel;
-
 class CWallet;
-class CBlockIndex;
 
 QT_BEGIN_NAMESPACE
+class QDateTime;
 class QTimer;
 QT_END_NAMESPACE
-
-enum BlockSource {
-    BLOCK_SOURCE_NONE,
-    BLOCK_SOURCE_REINDEX,
-    BLOCK_SOURCE_DISK,
-    BLOCK_SOURCE_NETWORK
-};
 
 enum NumConnections {
     CONNECTIONS_NONE = 0,
@@ -41,7 +20,7 @@ enum NumConnections {
     CONNECTIONS_ALL  = (CONNECTIONS_IN | CONNECTIONS_OUT),
 };
 
-/** Model for SelaCoin network client. */
+/** Model for Bitcoin network client. */
 class ClientModel : public QObject
 {
     Q_OBJECT
@@ -51,88 +30,57 @@ public:
     ~ClientModel();
 
     OptionsModel *getOptionsModel();
-    PeerTableModel *getPeerTableModel();
-    BanTableModel *getBanTableModel();
 
     //! Return number of connections, default is in- and outbound (total)
     int getNumConnections(unsigned int flags = CONNECTIONS_ALL) const;
     int getNumBlocks() const;
-    int getHeaderTipHeight() const;
-    int64_t getHeaderTipTime() const;
-    //! Return number of transactions in the mempool
-    long getMempoolSize() const;
-    //! Return the dynamic memory usage of the mempool
-    size_t getMempoolDynamicUsage() const;
+    int getNumBlocksAtStartup();
 
-    void setMasternodeList(const CDeterministicMNList& mnList);
-    CDeterministicMNList getMasternodeList() const;
-    void refreshMasternodeList();
-    
     quint64 getTotalBytesRecv() const;
     quint64 getTotalBytesSent() const;
 
-    double getVerificationProgress(const CBlockIndex *tip) const;
     QDateTime getLastBlockDate() const;
 
+    //! Return true if client connected to testnet
+    bool isTestNet() const;
     //! Return true if core is doing initial block download
     bool inInitialBlockDownload() const;
-    //! Returns enum BlockSource of the current importing/syncing state
-    enum BlockSource getBlockSource() const;
-    //! Return true if network activity in core is enabled
-    bool getNetworkActive() const;
-    //! Toggle network activity state in core
-    void setNetworkActive(bool active);
+    //! Return true if core is importing blocks
+    bool isImporting() const;
     //! Return warnings to be displayed in status bar
     QString getStatusBarWarnings() const;
 
     QString formatFullVersion() const;
-    QString formatSubVersion() const;
+    QString formatBuildDate() const;
     bool isReleaseVersion() const;
+    QString clientName() const;
     QString formatClientStartupTime() const;
-    QString dataDir() const;
-
-    // caches for the best header
-    mutable std::atomic<int> cachedBestHeaderHeight;
-    mutable std::atomic<int64_t> cachedBestHeaderTime;
 
 private:
     OptionsModel *optionsModel;
-    PeerTableModel *peerTableModel;
-    BanTableModel *banTableModel;
+
+    int cachedNumBlocks;
+
+    int numBlocksAtStartup;
 
     QTimer *pollTimer;
-
-    // The cache for mn list is not technically needed because CDeterministicMNManager
-    // caches it internally for recent blocks but it's not enough to get consistent
-    // representation of the list in UI during initial sync/reindex, so we cache it here too.
-    mutable CCriticalSection cs_mnlinst; // protects mnListCached
-    CDeterministicMNList mnListCached;
 
     void subscribeToCoreSignals();
     void unsubscribeFromCoreSignals();
 
-Q_SIGNALS:
+signals:
     void numConnectionsChanged(int count);
-    void masternodeListChanged() const;
-    void numBlocksChanged(int count, const QDateTime& blockDate, double nVerificationProgress, bool header);
-    void additionalDataSyncProgressChanged(double nSyncProgress);
-    void mempoolSizeChanged(long count, size_t mempoolSizeInBytes);
-    void networkActiveChanged(bool networkActive);
+    void numBlocksChanged(int count);
     void alertsChanged(const QString &warnings);
     void bytesChanged(quint64 totalBytesIn, quint64 totalBytesOut);
 
-    //! Fired when a message should be reported to the user
-    void message(const QString &title, const QString &message, unsigned int style);
+    //! Asynchronous message notification
+    void message(const QString &title, const QString &message, bool modal, unsigned int style);
 
-    // Show progress dialog e.g. for verifychain
-    void showProgress(const QString &title, int nProgress);
-
-public Q_SLOTS:
+public slots:
     void updateTimer();
     void updateNumConnections(int numConnections);
-    void updateNetworkActive(bool networkActive);
     void updateAlert(const QString &hash, int status);
-    void updateBanlist();
 };
 
-#endif // BITCOIN_QT_CLIENTMODEL_H
+#endif // CLIENTMODEL_H

@@ -1,57 +1,59 @@
-// Copyright (c) 2012-2014 The Bitcoin Core developers
-// Copyright (c) 2014-2018 The Dash Core developers
-// Distributed under the MIT software license, see the accompanying
+// Copyright (c) 2012 The Bitcoin developers
+// Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
 #ifndef BITCOIN_VERSION_H
 #define BITCOIN_VERSION_H
 
-/**
- * network protocol versioning
- */
+#include "clientversion.h"
+#include <string>
 
+//
+// client versioning
+//
 
-static const int PROTOCOL_VERSION = 70215;
+static const int CLIENT_VERSION =
+                           1000000 * CLIENT_VERSION_MAJOR
+                         +   10000 * CLIENT_VERSION_MINOR
+                         +     100 * CLIENT_VERSION_REVISION
+                         +       1 * CLIENT_VERSION_BUILD;
 
-//! initial proto version, to be increased after version/verack negotiation
+extern const std::string CLIENT_NAME;
+extern const std::string CLIENT_BUILD;
+extern const std::string CLIENT_DATE;
+
+//
+// database format versioning
+//
+static const int DATABASE_VERSION = 70510;
+
+//
+// network protocol versioning
+//
+
+static const int PROTOCOL_VERSION = 60019;
+
+// intial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 209;
 
-//! In this version, 'getheaders' was introduced.
-static const int GETHEADERS_VERSION = 70077;
+// disconnect from peers older than this proto version
+static const int MIN_PEER_PROTO_VERSION = 60016;
 
-//! disconnect from peers older than this proto version
-static const int MIN_PEER_PROTO_VERSION = 70213;
-
-//! nTime field added to CAddress, starting with this version;
-//! if possible, avoid requesting addresses nodes older than this
+// nTime field added to CAddress, starting with this version;
+// if possible, avoid requesting addresses nodes older than this
 static const int CADDR_TIME_VERSION = 31402;
 
-//! BIP 0031, pong message, is enabled for all versions AFTER this one
+// only request blocks from nodes outside this range of versions
+static const int NOBLKS_VERSION_START = 60002;
+static const int NOBLKS_VERSION_END = 60006;
+
+// BIP 0031, pong message, is enabled for all versions AFTER this one
 static const int BIP0031_VERSION = 60000;
 
-//! "mempool" command, enhanced "getdata" behavior starts with this version
+// "mempool" command, enhanced "getdata" behavior starts with this version:
 static const int MEMPOOL_GD_VERSION = 60002;
 
-//! "filter*" commands are disabled without NODE_BLOOM after and including this version
-static const int NO_BLOOM_VERSION = 70201;
+// reject blocks with non-canonical signatures starting from this version
+static const int CANONICAL_BLOCK_SIG_VERSION = 60016;
+static const int CANONICAL_BLOCK_SIG_LOW_S_VERSION = 60018;
 
-//! "sendheaders" command and announcing blocks with headers starts with this version
-static const int SENDHEADERS_VERSION = 70201;
-
-//! DIP0001 was activated in this version
-static const int DIP0001_PROTOCOL_VERSION = 70208;
-
-//! short-id-based block download starts with this version
-static const int SHORT_IDS_BLOCKS_VERSION = 70209;
-
-//! introduction of DIP3/deterministic masternodes
-static const int DMN_PROTO_VERSION = 70213;
-
-//! introduction of LLMQs
-static const int LLMQS_PROTO_VERSION = 70214;
-
-//! introduction of SENDDSQUEUE
-//! TODO we can remove this in 0.15.0.0
-static const int SENDDSQUEUE_PROTO_VERSION = 70214;
-
-#endif // BITCOIN_VERSION_H
+#endif

@@ -1,13 +1,5 @@
-// Copyright (c) 2011-2015 The Bitcoin Core developers
-// Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-#ifndef BITCOIN_QT_TRAFFICGRAPHWIDGET_H
-#define BITCOIN_QT_TRAFFICGRAPHWIDGET_H
-
-#include "trafficgraphdata.h"
-
-#include <boost/function.hpp>
+#ifndef TRAFFICGRAPHWIDGET_H
+#define TRAFFICGRAPHWIDGET_H
 
 #include <QWidget>
 #include <QQueue>
@@ -31,20 +23,22 @@ public:
 protected:
     void paintEvent(QPaintEvent *);
 
-public Q_SLOTS:
+public slots:
     void updateRates();
-    void setGraphRangeMins(int value);
+    void setGraphRangeMins(int mins);
     void clear();
 
 private:
-    typedef boost::function<float(const TrafficSample&)> SampleChooser;
-    void paintPath(QPainterPath &path, const TrafficGraphData::SampleQueue &queue, SampleChooser chooser);
+    void paintPath(QPainterPath &path, QQueue<float> &samples);
 
     QTimer *timer;
     float fMax;
     int nMins;
+    QQueue<float> vSamplesIn;
+    QQueue<float> vSamplesOut;
+    quint64 nLastBytesIn;
+    quint64 nLastBytesOut;
     ClientModel *clientModel;
-    TrafficGraphData trafficGraphData;
 };
 
-#endif // BITCOIN_QT_TRAFFICGRAPHWIDGET_H
+#endif // TRAFFICGRAPHWIDGET_H
