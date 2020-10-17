@@ -1,4 +1,0 @@
-qt/qt_libselacoinqt_a-qrc_selacoin.o: qt/qrc_selacoin.cpp \
- /usr/include/stdc-predef.h
-
-/usr/include/stdc-predef.h:

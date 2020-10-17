@@ -1,0 +1,2 @@
+debian/bin/selacoind usr/bin
+src/selacoind usr/lib/selacoin
