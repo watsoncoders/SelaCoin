@@ -1722,8 +1722,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Bir SelaCoin adresi gir (örn: SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Bir SelaCoin adresi gir (örn: SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1850,8 +1850,8 @@ Adres: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Ödemenin gönderileceği adres (örn:  SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>The address to send the payment to (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Ödemenin gönderileceği adres (örn:  SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1891,8 +1891,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Bir SelaCoin adresi girin (örn: SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Bir SelaCoin adresi girin (örn: SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
 </context>
 <context>
@@ -1915,8 +1915,8 @@ Adres: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Mesajın imzalanacağı adres (örn: SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>The address to sign the message with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Mesajın imzalanacağı adres (örn: SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1979,8 +1979,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Mesajın imzalandığı adres (örn: SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>The address the message was signed with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Mesajın imzalandığı adres (örn: SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1995,8 +1995,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Bir SelaCoin adresi girin (örn: SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Bir SelaCoin adresi girin (örn: SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2213,8 +2213,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Generated coins must mature 1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Üretilen coinler, harcanmaya başlamadan önce 1 blokta olgunlaşmalıdır. Bu bloğu ürettiğinizde, blok zincirine eklenmek üzere ağda yayınlanır. Eğer blok, zincire girmede başarısız olursa, bloğun durumu &quot;kabul edilmedi&quot;ye dönüşür ve harcanamaz. Bu, başka bir devre sizden birkaç saniye önce bir blok ürettiyse gerçekleşebilir.</translation>
+        <source>Generated coins must mature 5 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Üretilen coinler, harcanmaya başlamadan önce 5 blokta olgunlaşmalıdır. Bu bloğu ürettiğinizde, blok zincirine eklenmek üzere ağda yayınlanır. Eğer blok, zincire girmede başarısız olursa, bloğun durumu &quot;kabul edilmedi&quot;ye dönüşür ve harcanamaz. Bu, başka bir devre sizden birkaç saniye önce bir blok ürettiyse gerçekleşebilir.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2669,8 +2669,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 24068 or testnet: 34068)</source>
-        <translation>&lt;port&gt; üzerinde bağlantıları dinle (varsayılan: 24068 veya testnet: 34068)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 25522 or testnet: 35522)</source>
+        <translation>&lt;port&gt; üzerinde bağlantıları dinle (varsayılan: 25522 veya testnet: 35522)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2719,8 +2719,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 24067 or testnet: 34067)</source>
-        <translation>&lt;port&gt; üzerinde JSON-RPC bağlantılarını dinle (varsayılan: 24067 veya testnet: 34067)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 25521 or testnet: 35521)</source>
+        <translation>&lt;port&gt; üzerinde JSON-RPC bağlantılarını dinle (varsayılan: 25521 veya testnet: 35521)</translation>
     </message>
     <message>
         <location line="-16"/>

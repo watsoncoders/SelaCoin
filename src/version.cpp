@@ -37,7 +37,7 @@ const std::string CLIENT_NAME("SelaCoin");
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
 #    define GIT_COMMIT_ID ""
-#    define GIT_COMMIT_DATE "Sat, 17 Oct 2020 10:50:05 +0200"
+#    define GIT_COMMIT_DATE "Sun, 29 Nov 2020 17:35:05 +0100"
 #endif
 
 #define BUILD_DESC_FROM_COMMIT(maj,min,rev,build,commit) \

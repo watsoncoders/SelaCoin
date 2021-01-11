@@ -1717,8 +1717,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Indtast en SelaCoin-adresse (f.eks SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Indtast en SelaCoin-adresse (f.eks SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1845,7 +1845,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
+        <source>The address to send the payment to (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1886,8 +1886,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Indtast en SelaCoin-adresse (f.eks SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Indtast en SelaCoin-adresse (f.eks SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
 </context>
 <context>
@@ -1910,8 +1910,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Adresse til at underskrive meddelelsen med (f.eks SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>The address to sign the message with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Adresse til at underskrive meddelelsen med (f.eks SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1974,8 +1974,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Adressen meddelelse blev underskrevet med (f.eks SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>The address the message was signed with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Adressen meddelelse blev underskrevet med (f.eks SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1990,8 +1990,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Indtast en SelaCoin-adresse (f.eks SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Indtast en SelaCoin-adresse (f.eks SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2208,8 +2208,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Generated coins must mature 1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generet mønter skal modne 1 blokke, før de kan blive brugt. Når du genererede denne blok blev det transmitteret til netværket, der tilføjes til blokkæden. Hvis det mislykkes at komme ind i kæden, vil dens tilstand ændres til &quot;ikke godkendt&quot;, og det vil ikke være brugbar. Dette kan lejlighedsvis ske, hvis en anden node genererer en blok et par sekunder efter din.</translation>
+        <source>Generated coins must mature 5 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Generet mønter skal modne 5 blokke, før de kan blive brugt. Når du genererede denne blok blev det transmitteret til netværket, der tilføjes til blokkæden. Hvis det mislykkes at komme ind i kæden, vil dens tilstand ændres til &quot;ikke godkendt&quot;, og det vil ikke være brugbar. Dette kan lejlighedsvis ske, hvis en anden node genererer en blok et par sekunder efter din.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2654,8 +2654,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SelaCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 24068 or testnet: 34068)</source>
-        <translation>Lyt efter forbindelser på &lt;port&gt; (default: 24068 eller Testnet: 34068)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 25522 or testnet: 35522)</source>
+        <translation>Lyt efter forbindelser på &lt;port&gt; (default: 25522 eller Testnet: 35522)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2704,8 +2704,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SelaCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 24067 or testnet: 34067)</source>
-        <translation>Spor efter JSON-RPC-forbindelser på &lt;port&gt; (default: 24067 eller Testnet: 34067)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 25521 or testnet: 35521)</source>
+        <translation>Spor efter JSON-RPC-forbindelser på &lt;port&gt; (default: 25521 eller Testnet: 35521)</translation>
     </message>
     <message>
         <location line="-16"/>

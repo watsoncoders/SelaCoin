@@ -1713,8 +1713,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Introdueix una adreça SelaCoin (p.ex. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Introdueix una adreça SelaCoin (p.ex. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1841,7 +1841,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
+        <source>The address to send the payment to (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1882,8 +1882,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Introdueix una adreça SelaCoin (p.ex. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Introdueix una adreça SelaCoin (p.ex. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
 </context>
 <context>
@@ -1906,8 +1906,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>L&apos;adreça per a signar el missatge (per exemple SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>The address to sign the message with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>L&apos;adreça per a signar el missatge (per exemple SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1970,8 +1970,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>La direcció que va ser signada amb un missatge (per exemple SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>The address the message was signed with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>La direcció que va ser signada amb un missatge (per exemple SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1986,8 +1986,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Introdueix una adreça SelaCoin (p.ex. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Introdueix una adreça SelaCoin (p.ex. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2204,8 +2204,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Generated coins must mature 1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Les monedes generades han de madurar 1 blocs abans per a poder estar disponibles. En generar aquest bloc, que va ser transmès a la xarxa per ser afegit a la cadena de bloc. Si no aconsegueix entrar a la cadena, el seu estat canviarà a &quot;no acceptat&quot; i no es podrà gastar. Això pot succeir de tant en tant si un altre node genera un bloc a pocs segons del seu.</translation>
+        <source>Generated coins must mature 5 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Les monedes generades han de madurar 5 blocs abans per a poder estar disponibles. En generar aquest bloc, que va ser transmès a la xarxa per ser afegit a la cadena de bloc. Si no aconsegueix entrar a la cadena, el seu estat canviarà a &quot;no acceptat&quot; i no es podrà gastar. Això pot succeir de tant en tant si un altre node genera un bloc a pocs segons del seu.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2650,8 +2650,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SelaCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 24068 or testnet: 34068)</source>
-        <translation>Escoltar connexions en &lt;port&gt; (per defecte: 24068 o testnet: 34068)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 25522 or testnet: 35522)</source>
+        <translation>Escoltar connexions en &lt;port&gt; (per defecte: 25522 o testnet: 35522)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2700,8 +2700,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SelaCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 24067 or testnet: 34067)</source>
-        <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: 24067 o testnet: 34067)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 25521 or testnet: 35521)</source>
+        <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: 25521 o testnet: 35521)</translation>
     </message>
     <message>
         <location line="-16"/>

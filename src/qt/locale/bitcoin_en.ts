@@ -1728,8 +1728,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1856,7 +1856,7 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
+        <source>The address to send the payment to (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1897,8 +1897,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
 </context>
 <context>
@@ -1921,8 +1921,8 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>The address to sign the message with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>The address to sign the message with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>The address to sign the message with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1985,8 +1985,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>The address the message was signed with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>The address the message was signed with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>The address the message was signed with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2001,8 +2001,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2225,8 +2225,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Generated coins must mature 1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generated coins must mature 1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
+        <source>Generated coins must mature 5 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Generated coins must mature 5 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2677,8 +2677,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SelaCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 24068 or testnet: 34068)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: 24068 or testnet: 34068)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 25522 or testnet: 35522)</source>
+        <translation>Listen for connections on &lt;port&gt; (default: 25522 or testnet: 35522)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2727,7 +2727,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SelaCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 24067 or testnet: 34067)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 25521 or testnet: 35521)</source>
         <translation></translation>
     </message>
     <message>

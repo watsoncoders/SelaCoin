@@ -242,7 +242,7 @@ if __name__ == '__main__':
 	blkindex = get_block_hashes(settings)
 	blkset = mkblockset(blkindex)
 
-	if not "000001abdcdb4e23a5e11ebe5d1bbf2c7808d7d43c827f3ba261e27ebc758631" in blkset:
+	if not "0000014e27558308efde2c3baaacd65a4381b311a68d3a989acfd73819940072" in blkset:
 		print("not found")
 	else:
 		copydata(settings, blkindex, blkset)

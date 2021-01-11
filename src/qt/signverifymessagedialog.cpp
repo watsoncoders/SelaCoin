@@ -24,10 +24,10 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)"));
     ui->signatureIn_VM->setPlaceholderText(tr("Enter SelaCoin signature"));
 #endif
 

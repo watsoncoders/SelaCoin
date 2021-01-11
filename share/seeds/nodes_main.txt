@@ -40,5 +40,5 @@
 [2001:0:5ef5:79fb:1029:3013:31d2:d527]
 
 # Onion nodes
-54ktu5wby3agev2d.onion:24068
-pqlf5ov3xzkqj3lt.onion:24068
+54ktu5wby3agev2d.onion:25522
+pqlf5ov3xzkqj3lt.onion:25522

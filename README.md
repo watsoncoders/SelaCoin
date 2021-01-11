@@ -1,2 +1,3 @@
+Development moved to https://gitlab.com/blacknet-ninja
 
-https://sela-coin.com/ aims to continue on SelaCoin chain.
+https://selacoin.org/ aims to continue on SelaCoin chain.

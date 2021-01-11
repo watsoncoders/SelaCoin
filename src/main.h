@@ -56,13 +56,13 @@ static const int64_t COIN_YEAR_REWARD = 1 * CENT; // 1% per year
 
 inline bool IsProtocolV1RetargetingFixed(int nHeight) { return TestNet() || nHeight > 0; }
 inline bool IsProtocolV2(int nHeight) { return TestNet() || nHeight > 0; }
-inline bool IsProtocolV3(int64_t nTime) { return TestNet() || nTime > 1602924608; }
+inline bool IsProtocolV3(int64_t nTime) { return TestNet() || nTime > 1606667708; }
 
 inline int64_t FutureDriftV1(int64_t nTime) { return nTime + 10 * 60; }
 inline int64_t FutureDriftV2(int64_t nTime) { return nTime + 2 * 60 * 60; }
 inline int64_t FutureDrift(int64_t nTime, int nHeight) { return IsProtocolV2(nHeight) ? FutureDriftV2(nTime) : FutureDriftV1(nTime); }
 
-inline unsigned int GetTargetSpacing(int nHeight) { return IsProtocolV2(nHeight) ? 300 : 300; }
+inline unsigned int GetTargetSpacing(int nHeight) { return IsProtocolV2(nHeight) ? 600 : 600; }
 
 extern CScript COINBASE_FLAGS;
 extern CCriticalSection cs_main;

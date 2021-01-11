@@ -1717,8 +1717,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Napiš SelaCoin adresu (např. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Napiš SelaCoin adresu (např. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1845,7 +1845,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
+        <source>The address to send the payment to (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1886,8 +1886,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Zadej SelaCoin adresu (např. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Zadej SelaCoin adresu (např. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
 </context>
 <context>
@@ -1910,8 +1910,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Adresa pro podepsání zprávy (např. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>The address to sign the message with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Adresa pro podepsání zprávy (např. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1974,8 +1974,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Adresa kterou byla zpráva podepsána (např. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>The address the message was signed with (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Adresa kterou byla zpráva podepsána (např. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1990,8 +1990,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a SelaCoin address (e.g. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</source>
-        <translation>Zadej SelaCoin adresu (např. SaUzr2SgNRDERfG2JPGqJDLNMUwxhoH3G1)</translation>
+        <source>Enter a SelaCoin address (e.g. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</source>
+        <translation>Zadej SelaCoin adresu (např. SRRLkmiVZacHNWNWUWf1caWpiTJZ7tEeXv)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2208,8 +2208,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Generated coins must mature 1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Vygenerované mince musí zrát 1 bloků, než mohou být utraceny. Když jsi vygeneroval tento blok, tak byl vyslán do sítě, aby byl přidán do řetězce bloků. Pokud přidání do řetězce selže, tak se jeho stav změní na &quot;neakceptován&quot; a nebude ho možné utratit. To se někdy může stát, když jiný uzel vygeneruje blok pár vteřin před tím tvým. </translation>
+        <source>Generated coins must mature 5 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Vygenerované mince musí zrát 5 bloků, než mohou být utraceny. Když jsi vygeneroval tento blok, tak byl vyslán do sítě, aby byl přidán do řetězce bloků. Pokud přidání do řetězce selže, tak se jeho stav změní na &quot;neakceptován&quot; a nebude ho možné utratit. To se někdy může stát, když jiný uzel vygeneruje blok pár vteřin před tím tvým. </translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2654,8 +2654,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SelaCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 24068 or testnet: 34068)</source>
-        <translation>Naslouchej připojením na &lt;port&gt; (výchozí: 24068 nebo testovací síť: 34068)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 25522 or testnet: 35522)</source>
+        <translation>Naslouchej připojením na &lt;port&gt; (výchozí: 25522 nebo testovací síť: 35522)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2704,8 +2704,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SelaCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 24067 or testnet: 34067)</source>
-        <translation>Naslouchej JSON-RPC připojením na &lt;port&gt; (výchozí: 24067 nebo testovací síť: 34067)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 25521 or testnet: 35521)</source>
+        <translation>Naslouchej JSON-RPC připojením na &lt;port&gt; (výchozí: 25521 nebo testovací síť: 35521)</translation>
     </message>
     <message>
         <location line="-16"/>
