@@ -1,3 +1,3 @@
 
 
-https://selacoin.org/ aims to continue on SelaCoin chain.
+https://sela-coin.com/ aims to continue on SelaCoin chain.
