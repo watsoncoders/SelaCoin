@@ -9,7 +9,7 @@ https://sela-coin.com/ aims to continue on SelaCoin chain.
 ## How To Start Solo Mining SelaCoins?
 Use these instructions to mine for selacoins.
 
-Open your Sela wallet, and make sure your wallet is connected with a node using the addnode=%some ip% in the coin app data /selacoin/selacoin.conf 
+Open your Sela wallet, and make sure your wallet is connected with a node using the ```addnode=%some ip% in the coin app data /selacoin/selacoin.conf ```
 file.
 You will know your wallet is connected when you see the icon Wallet connections in the lower corner of your wallet.
 
