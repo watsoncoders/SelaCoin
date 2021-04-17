@@ -3,13 +3,14 @@
 https://sela-coin.com/ aims to continue on SelaCoin chain.
 
 
-SelaCoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world – at lower costs then any otehr crypto currency existing today. SelaCoin is an open source, global payment processing solution that is fully decentralized without any central authorities, unlike other token based crypto currencies. Advanced And Complicated Mathematics code inbuild into the source code  secures the entire SelaCoin network and empowers it’s users to control their own finances. SelaCoin Also features lightening-fast transaction confirmation times – At 4 Confirmations thus  improves the entire blockchain storage efficiency than other cryptocurrencies, and of course better in all respects to  the current fiat-based currences. With substantial industry support, trade volume and liquidity, SelaCoinoin is a proven medium of commerce complementary to Bitcoin.
+### SelaCoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world – at lower costs then any otehr crypto currency existing today. SelaCoin is an open source, global payment processing solution that is fully decentralized without any central authorities, unlike other token based crypto currencies. Advanced And Complicated Mathematics code inbuild into the source code  secures the entire SelaCoin network and empowers it’s users to control their own finances. SelaCoin Also features lightening-fast transaction confirmation times – At 4 Confirmations thus  improves the entire blockchain storage efficiency than other cryptocurrencies, and of course better in all respects to  the current fiat-based currences. With substantial industry support, trade volume and liquidity, SelaCoinoin is a proven medium of commerce complementary to Bitcoin.
 
-Common Questions :
-How To Start Solo Mining SelaCoins?
+### Common Questions :
+## How To Start Solo Mining SelaCoins?
 Use these instructions to mine for selacoins.
 
-Open your Sela wallet, and make sure your wallet is connected with a node using the addnode=%some ip% in the coin app data /selacoin/selacoin.conf file
+Open your Sela wallet, and make sure your wallet is connected with a node using the addnode=%some ip% in the coin app data /selacoin/selacoin.conf 
+file.
 You will know your wallet is connected when you see the icon Wallet connections in the lower corner of your wallet.
 
 The message “Synchronizing with network…” will disappear once you mine your first block on the selacoin network.
@@ -24,6 +25,7 @@ rpcallowip=127.0.0.1
 rpcport=25521
 listen=1
 server=1
+
 Download cpuminer from https://github.com/pooler/cpuminer/releases/tag/v2.5.0 and extract the zip file.
 
 Create a .bat file named mine.bat and paste the following text into mine.bat.
@@ -193,49 +195,49 @@ selacoind
 How do I cross-compile a SelaCoin wallet for Windows?
 Use the following instructions to cross-compile the selacoin wallet for Windows using Ubuntu Server 18.04.
 
-1) Update your Ubuntu machine.
+## 1) Update your Ubuntu machine.
 
 sudo apt-get update
 sudo apt-get upgrade
 
-2) Install the required dependencies for MXE.
+## 2) Install the required dependencies for MXE.
 
 sudo apt-get install p7zip-full autoconf automake autopoint bash bison
 sudo apt-get install bzip2 cmake flex gettext git g++ gperf libgtk2.0-dev ntltool libffi-dev libtool libtool-bin
 sudo apt-get install libltdl-dev libssl-dev libxml-parser-perl make openssl patch perl pkg-config python ruby scons sed unzip wget xz-utils lzip python-pip g++-multilib libc6-dev-i386
 
-3) Clone the MXE repository
+## 3) Clone the MXE repository
 
 cd /mnt
 sudo git clone https://github.com/mxe/mxe.git
 
-4) Compile Boost
+## 4) Compile Boost
 
 cd /mnt/mxe
 sudo make MXE_TARGETS="i686-w64-mingw32.static" boost
 
-5) Compile QT5
+## 5) Compile QT5
 
 cd /mnt/mxe
 sudo make MXE_TARGETS="i686-w64-mingw32.static" qttools
 
-6) Download and unpack Berkeley DB.
+## 6) Download and unpack Berkeley DB.
 
 cd /mnt
 sudo wget https://download.oracle.com/berkeley-db/db-4.8.30.tar.gz
 sudo tar zxvf db-4.8.30.tar.gz
 
-7) Create bash script to install Berkeley DB.
+## 7) Create bash script to install Berkeley DB.
 
 cd /mnt/db-4.8.30
 sudo touch compile-db.sh
 sudo chmod ugo+x compile-db.sh
 
-8) Edit the newly created bash file compile-db.sh.
+## 8) Edit the newly created bash file compile-db.sh.
 
 sudo nano compile-db.sh
 
-9) Paste the following in the file compile-db.sh
+## 9) Paste the following in the file compile-db.sh
 
 #!/bin/bash
 MXE_PATH=/mnt/mxe
@@ -255,27 +257,27 @@ CXX=$MXE_PATH/usr/bin/i686-w64-mingw32.static-g++ \
 make
 make install
 
-10) Compile Berkeley DB.
+## 10) Compile Berkeley DB.
 
 sudo ./compile-db.sh
 
-11) Download and unpack miniupnp.
+## 11) Download and unpack miniupnp.
 
 cd /mnt
 sudo wget http://miniupnp.free.fr/files/miniupnpc-1.9.tar.gz
 sudo tar zxvf miniupnpc-1.9.tar.gz
 
-12) Create bash script to install miniupnp.
+## 12) Create bash script to install miniupnp.
 
 cd /mnt/miniupnpc-1.9
 sudo touch compile-upnp.sh
 sudo chmod ugo+x compile-upnp.sh
 
-13) Edit the file compile-upnp.sh.
+## 13) Edit the file compile-upnp.sh.
 
 sudo nano compile-upnp.sh
 
-14) Paste the following in the file compile-upnp.sh
+## 14) Paste the following in the file compile-upnp.sh
 
 #!/bin/bash
 MXE_PATH=/mnt/mxe
@@ -288,16 +290,16 @@ mkdir $MXE_PATH/usr/i686-w64-mingw32.static/include/miniupnpc
 cp *.h $MXE_PATH/usr/i686-w64-mingw32.static/include/miniupnpc
 cp libminiupnpc.a $MXE_PATH/usr/i686-w64-mingw32.static/lib
 
-15) Compile miniupnp.
+## 15) Compile miniupnp.
 
 sudo ./compile-upnp.sh
 
-16) Install OpenSSL.
+## 16) Install OpenSSL.
 
 cd /mnt/mxe
 sudo make openssl1.0 MXE_PLUGIN_DIRS=plugins/selas/openssl1.0/
 
-17) Create a directory for the selacoin source code.
+## 17) Create a directory for the selacoin source code.
 
 cd ~/
 mkdir source_code
@@ -305,20 +307,20 @@ cd source_code
 
 wget "https://sela-coin.com/download/tools/selacoin-source.tar.gz" -O selacoin-source.tar.gz
 
-17) Extract the tar file.
+## 18) Extract the tar file.
 
 tar -xzvf selacoin-source.tar.gz
 
-18) Create bash script to compile your windows wallet.
+## 19) Create bash script to compile your windows wallet.
 
 touch compile-blockchain.sh
 chmod ugo+x compile-blockchain.sh
 
-19) Edit the file compile-blockchain.sh.
+## 20) Edit the file compile-blockchain.sh.
 
 sudo nano compile-blockchain.sh
 
-20) Paste the following in the file compile-blockchain.sh.
+## 21) Paste the following in the file compile-blockchain.sh.
 
 #!/bin/bash
 export PATH=/mnt/mxe/usr/bin:$PATH
@@ -341,7 +343,7 @@ QMAKE_LRELEASE=/mnt/mxe/usr/i686-w64-mingw32.static/qt5/bin/lrelease SelaCoin-qt
 
 make -f Makefile.Release
 
-21) Now Compile your SelaCoin Windows wallet using the following command :
+## 22) Now Compile your SelaCoin Windows wallet using the following command :
 
 ./compile-blockchain.sh
 
