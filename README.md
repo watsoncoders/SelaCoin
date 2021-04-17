@@ -17,20 +17,20 @@ The message “Synchronizing with network…” will disappear once you mine you
 
 Close your wallet and create the file selacoin.conf in the folder “%APPDATA%\selacoin\”.
 
-Paste the following text into selacoin.conf and save the file. or you can download the selacoin.conf file from here – download
-
+Paste the following text into selacoin.conf and save the file.
+```
 rpcuser=rpc_selacoin
 rpcpassword=2519d4ef50064515486153139
 rpcallowip=127.0.0.1
 rpcport=25521
 listen=1
 server=1
-
+```
 Download cpuminer from https://github.com/pooler/cpuminer/releases/tag/v2.5.0 and extract the zip file.
 
 Create a .bat file named mine.bat and paste the following text into mine.bat.
-
-minerd --url=http://127.0.0.1:25521--userpass=rpc_selacoin:2519d4ef50064515486153139
+```
+minerd --url=http://127.0.0.1:25521--userpass=rpc_selacoin:2519d4ef50064515486153139 ```
 Save the file inside the extracted cpuminer folder.
 
 Open your wallet and execute mine.bat to start mining your first Sela block.
@@ -42,22 +42,24 @@ Close your wallet and create the file selacoin.conf in the folder “%APPDATA%\s
 
 Paste the following text into selacoin.conf and save the file.
 
-addnode=REPLACE_WITH_YOUR_IP_OR_HOSTNAME
+```addnode=REPLACE_WITH_YOUR_IP_OR_HOSTNAME ```
 
 Replace the text “REPLACE_WITH_YOUR_IP_OR_HOSTNAME” with an IP
 
  address or hostname.
 
 these are just some of the public nodes we have so far: 
-
+```
 161.35.253.52
 
 167.172.3.171
+```
 so an example selacoin.con would include the nodes this way :
+```
 addnode=167.172.3.171
 
 addnode=161.35.253.52
-
+```
 
 How to setup a node on Ubuntu Server 18.04?
 Install Ubuntu Server 18.04 on a VPS – i recommend using digital ocean 
@@ -66,37 +68,38 @@ here is a promo code giving you 100$ to start your own node with digital ocean
 
 https://m.do.co/c/7474750982e8
 Update your Ubuntu machine.
-
+```
 sudo apt-get update
 sudo apt-get upgrade
-
+```
 
 Install the required dependencies.
-
+```
 sudo apt-get install libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libdb-dev libdb++-dev libminiupnpc-dev
 
 
 wget "https://sela-coin.com/download/tools/selacoin-daemon-linux.tar.gz" -O selacoin-daemon-linux.tar.gz
 
-
+```
 Extract the tar file.
-
+``````
 tar -xzvf selacoin-daemon-linux.tar.gz
 
 
 Install the daemon.
-
+```
 sudo mv selacoind /usr/bin/
 
-
+```
 Create the config file.
-
+```
 mkdir $HOME/.selacoin
 nano $HOME/.selacoin/selacoin.conf
+```
 
 
 Paste the following lines in selacoin.conf.
-
+```
 rpcuser=rpc_selacoin
 rpcpassword=69c863e3356d3dae95df454a1
 rpcallowip=127.0.0.1
@@ -105,25 +108,25 @@ server=1
 txindex=1
 staking=0
 daemon=1
-
+```
 
 Start your node with the following command.
-
+```
 selacoind
-
+```
 
 make note of the ipv4 adress to the server /droplet – that is your node address
 
 How to setup a node on CentOS 7?
 Update your CentOS machine.
-
+```
 yum update -y
-
+```
 
 Install the EPEL repository.
-
+```
 yum install -y epel-release
-
+```
 
 Install the required dependencies.
 
@@ -321,7 +324,7 @@ chmod ugo+x compile-blockchain.sh
 sudo nano compile-blockchain.sh
 
 ## 21) Paste the following in the file compile-blockchain.sh.
-
+```
 #!/bin/bash
 export PATH=/mnt/mxe/usr/bin:$PATH
 MXE_INCLUDE_PATH=/mnt/mxe/usr/i686-w64-mingw32.static/include
@@ -342,11 +345,11 @@ MINIUPNPC_LIB_PATH=$MXE_LIB_PATH \
 QMAKE_LRELEASE=/mnt/mxe/usr/i686-w64-mingw32.static/qt5/bin/lrelease SelaCoin-qt.pro
 
 make -f Makefile.Release
-
+```
 ## 22) Now Compile your SelaCoin Windows wallet using the following command :
-
+```
 ./compile-blockchain.sh
-
+```
 **** The compiling will take about 60 minutes depending on your system hardware.*******
 
 ***** Your compiled wallet named selacoin-qt.exe can be found in the folder “release” when compiling is finished.******
