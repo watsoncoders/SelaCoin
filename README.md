@@ -68,6 +68,7 @@ Install Ubuntu Server 18.04 on a VPS – i recommend using digital ocean
 here is a promo code giving you 100$ to start your own node with digital ocean
 
 https://m.do.co/c/7474750982e8
+
 Update your Ubuntu machine.
 ```
 sudo apt-get update
