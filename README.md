@@ -79,7 +79,7 @@ Install the required dependencies.
 sudo apt-get install libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libdb-dev libdb++-dev libminiupnpc-dev
 
 
-wget "https://sela-coin.com/download/tools/selacoin-daemon-linux.tar.gz" -O selacoin-daemon-linux.tar.gz
+wget "https://sela-coin.com/download/selacoin-daemon-linux.tar.gz" -O selacoin-daemon-linux.tar.gz
 
 ```
 Extract the tar file.
@@ -151,7 +151,7 @@ Create a directory for the source code.
 cd $HOME
 mkdir source_code
 cd source_code
-wget "https://sela-coin.com/download/tools/selacoin-source.tar.gz" -O selacoin-source.tar.gz
+wget "https://sela-coin.com/download/selacoin-source.tar.gz" -O selacoin-source.tar.gz
 ```
 
 Extract the tar file.
@@ -307,7 +307,7 @@ sudo make openssl1.0 MXE_PLUGIN_DIRS=plugins/selas/openssl1.0/
 cd ~/
 mkdir source_code
 cd source_code
-wget "https://sela-coin.com/download/tools/selacoin-source.tar.gz" -O selacoin-source.tar.gz
+wget "https://sela-coin.com/download/selacoin-source.tar.gz" -O selacoin-source.tar.gz
 ```
 ## 18) Extract the tar file.
 ```
