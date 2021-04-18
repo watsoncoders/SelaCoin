@@ -38,7 +38,7 @@ Open your wallet and execute mine.bat to start mining your first Sela block.
 
 
 
-How to connect your SelaCoin Wallet to a node?
+### How to connect your SelaCoin Wallet to a node?
 Close your wallet and create the file selacoin.conf in the folder “%APPDATA%\selacoin\”.
 
 Paste the following text into selacoin.conf and save the file.
@@ -62,12 +62,12 @@ addnode=167.172.3.171
 addnode=161.35.253.52
 ```
 
-How to setup a node on Ubuntu Server 18.04?
+### How to setup a node on Ubuntu Server 18.04?
 Install Ubuntu Server 18.04 on a VPS – i recommend using digital ocean 
 
-here is a promo code giving you 100$ to start your own node with digital ocean
+#### here is a promo code giving you 100$ to start your own node with digital ocean
 
-https://m.do.co/c/7474750982e8
+#### https://m.do.co/c/7474750982e8
 
 Update your Ubuntu machine.
 ```
