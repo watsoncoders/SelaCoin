@@ -3,13 +3,13 @@
 https://sela-coin.com/ aims to continue on SelaCoin chain.
 
 
-### SelaCoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world – at lower costs then any otehr crypto currency existing today. SelaCoin is an open source, global payment processing solution that is fully decentralized without any central authorities, unlike other token based crypto currencies. Advanced And Complicated Mathematics code inbuild into the source code  secures the entire SelaCoin network and empowers it’s users to control their own finances. SelaCoin Also features lightening-fast transaction confirmation times – At 4 Confirmations thus  improves the entire blockchain storage efficiency than other cryptocurrencies, and of course better in all respects to  the current fiat-based currences. With substantial industry support, trade volume and liquidity, SelaCoinoin is a proven medium of commerce complementary to Bitcoin.
+### SelaCoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world - at lower costs than any other cryptocurrency existing today. SelaCoin is an open source, global payment processing solution that is fully decentralized without any central authorities, unlike other token based crypto currencies. Advanced and complicated mathematics code inbuild into the source code secures the entire SelaCoin network and empowers it’s users to control their own finances. SelaCoin also features lightening-fast transaction confirmation times - at 4 confirmations; thus improves the entire blockchain storage efficiency more than other cryptocurrencies, and of course better in all respects to the current fiat-based currencies. With substantial industry support, trade volume and liquidity, SelaCoin is a proven medium of commerce complementary to Bitcoin.
 
 ### Common Questions :
 ## How To Start Solo Mining SelaCoins?
 Use these instructions to mine for selacoins.
 
-Open your Sela wallet, and make sure your wallet is connected with a node using the  addnode=%some ip% in the coin app data /selacoin/selacoin.conf 
+Open your Sela wallet, and make sure your wallet is connected with a node using the addnode=%some ip% in the coin app data /selacoin/selacoin.conf 
 file.
 You will know your wallet is connected when you see the icon Wallet connections in the lower corner of your wallet.
 
@@ -63,9 +63,9 @@ addnode=161.35.253.52
 ```
 
 ### How to setup a node on Ubuntu Server 18.04?
-Install Ubuntu Server 18.04 on a VPS – i recommend using digital ocean 
+Install Ubuntu Server 18.04 on a VPS – I recommend using Digital Ocean 
 
-#### here is a promo code giving you 100$ to start your own node with digital ocean
+#### here is a promo code giving you 100$ to start your own node with Digital Ocean
 
 #### https://m.do.co/c/7474750982e8
 
@@ -117,7 +117,7 @@ Start your node with the following command.
 selacoind
 ```
 
-make note of the ipv4 adress to the server /droplet – that is your node address
+make note of the ipv4 adress of the server / droplet – that is your node IP address
 
 How to setup a node on CentOS 7?
 Update your CentOS machine.
