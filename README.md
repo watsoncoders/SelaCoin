@@ -2,8 +2,7 @@
 
 https://sela-coin.com/ aims to continue on SelaCoin chain.
 
-github: wattson-coder
-patreon: pablorotem
+
 ### SelaCoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world - at lower costs than any other cryptocurrency existing today. SelaCoin is an open source, global payment processing solution that is fully decentralized without any central authorities, unlike other token based crypto currencies. Advanced and complicated mathematics code inbuild into the source code secures the entire SelaCoin network and empowers it’s users to control their own finances. SelaCoin also features lightening-fast transaction confirmation times - at 4 confirmations; thus improves the entire blockchain storage efficiency more than other cryptocurrencies, and of course better in all respects to the current fiat-based currencies. With substantial industry support, trade volume and liquidity, SelaCoin is a proven medium of commerce complementary to Bitcoin.
 
 ### Common Questions :
