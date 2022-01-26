@@ -80,7 +80,7 @@ Install the required dependencies.
 sudo apt-get install libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libdb-dev libdb++-dev libminiupnpc-dev
 
 
-wget "https://github.com/wattson-coder/SelaCoin/blob/main/builds/selacoin-daemon-linux.tar.gz" -O selacoin-daemon-linux.tar.gz
+wget "https://github.com/wattson-coder/The-official-selacoin-node/blob/main/selacoin-daemon-linux.tar.gz" -O selacoin-daemon-linux.tar.gz
 
 ```
 Extract the tar file.
