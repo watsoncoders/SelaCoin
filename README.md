@@ -43,20 +43,25 @@ Close your wallet and create the file selacoin.conf in the folder “%APPDATA%\s
 
 Paste the following text into selacoin.conf and save the file.
 
-``` addnode=REPLACE_WITH_YOUR_IP_OR_HOSTNAME ```
+``` addnode=REPLACE_WITH_IP_OR_HOSTNAME ```
 
-Replace the text “REPLACE_WITH_YOUR_IP_OR_HOSTNAME” with an IP
+Replace the text “REPLACE_WITH_IP_OR_HOSTNAME” with an IP
 
  address or hostname.
 
-these are just some of the public nodes we have so far: 
+these are just some of the public nodes we have so far :
 ```
+161.97.185.151
+
 161.35.253.52
 
 167.172.3.171
+
 ```
 so an example selacoin.con would include the nodes this way :
 ```
+addnode=161.97.185.151
+
 addnode=167.172.3.171
 
 addnode=161.35.253.52
